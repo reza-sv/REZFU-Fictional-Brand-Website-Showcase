@@ -1,64 +1,285 @@
+```html
 <!DOCTYPE html>
-<html lang="en">
+<html dir="ltr" lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rezfu</title>
+
+    <title>REZFU</title>
+
+    <link rel="stylesheet" href="Css/bootstrap.min.css">
+    <link rel="stylesheet" href="Css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Space+Grotesk:wght@300..700&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
 
-    <header>
+    <!-- Navbar -->
 
-        <!-- Navbar -->
+    <header class="fixed-top text-light container-fluid">
 
-        <nav>
-            
+        <nav class="container-fluid rounded-2 mt-2 px-2 d-flex justify-content-between align-items-center nav-section">
+
             <div>
-                <h1>Rezfu</h1>
+                <h1>REZFU</h1>
             </div>
-            
-            <div>
-                <ul>
-                    <li></li>
-                    <li></li>
-                    <li></li>
+
+            <div class="d-flex justify-content-end align-items-end flex-grow-1 flex-md-grow-0">
+                <ul class="list-unstyled navbar-nav d-flex flex-row gap-4 pb-1">
+
+                    <li class="nav-item nav-list">
+                        <a href="#" class="text-decoration-none text-light nav-link">
+                            Technology
+                        </a>
+                    </li>
+
+                    <li class="nav-item nav-list">
+                        <a href="#" class="text-decoration-none text-light nav-link">
+                            Products
+                        </a>
+                    </li>
+
+                    <li class="nav-item nav-list">
+                        <a href="#" class="text-decoration-none text-light nav-link">
+                            About
+                        </a>
+                    </li>
+
+                    <li class="nav-item nav-list">
+                        <a href="#" class="text-decoration-none text-light nav-link">
+                            Support
+                        </a>
+                    </li>
+
                 </ul>
             </div>
 
             <div>
-                <p></p>
+                <a href="#" class="btn btn-light border border-primary text-white bg-black rounded-5 d-none d-md-block">
+                    Explore Products
+                </a>
             </div>
 
         </nav>
 
     </header>
 
-    <!-- Hero -->
 
-    <section>
+    <main>
+
+        <!-- Hero -->
+
+        <section class="container-fluid hero">
+
+            <img
+                class="img-fluid border-bottom border-light"
+                src="photos/Rezfu-One-hero.png"
+                alt="REZFU One">
+
+            <div class="hero-content text-white">
+
+                <p class="h1">Technology</p>
+
+                <p class="h1">
+                    Beyond <span class="text-primary">Tomorrow</span>
+                </p>
+
+                <p class="hero-description">
+                    Rezfu creates premium smart devices and futuristic <br>
+                    electronics for a more connected, intelligent and
+                    <span class="text-primary">beautiful</span> tomorrow.
+                </p>
+
+                <a href="#" class="btn btn-outline-primary hero-btn">
+                    Explore Products
+                </a>
+
+            </div>
+
+        </section>
 
 
+        <!-- Featured Products -->
 
-    </section>
+        <section>
 
-    <!-- Cards -->
+            <div class="container-fluid mt-1 text-white">
 
-    <section>
+                <!-- Section Header -->
+
+                <div class="d-flex flex-column flex-md-row gap-4 justify-content-between">
+
+                    <div>
+
+                        <p class="featured-products-title">
+                            FEATURED PRODUCTS
+                        </p>
+
+                        <h1 class="text-light">
+                            Innovation in <br>
+                            Every Detail
+                        </h1>
+
+                    </div>
 
 
+                    <div class="d-flex align-items-end">
 
-    </section>
+                        <p class="text-secondary">
+                            Thoughtfully designed. Powerfully engineered.<br>
+                            Our flagship products bring together cutting-edge<br>
+                            technology.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Product Cards -->
+
+                <div class="row g-4 mt-2">
+
+
+                    <!-- Product 1 -->
+
+                    <div class="col-12 col-md-6 col-lg-4">
+
+                        <div class="card h-100 border border-primary rounded-1 bg-transparent text-white">
+
+                            <img
+                                src="photos/Rezfu-one.png"
+                                class="card-img-top img-fluid"
+                                alt="REZFU One">
+
+                            <div class="card-body p-2">
+
+                                <h3>REZFU One</h3>
+
+                                <p class="fs-6">
+                                    The unlimited smartphone experience.
+                                </p>
+
+                                <div class="d-flex justify-content-between align-items-center">
+
+                                    <p class="mb-0">
+                                        $999
+                                    </p>
+
+                                    <button class="btn text-white border rounded-5">
+                                        →
+                                    </button>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- Product 2 -->
+
+                    <div class="col-12 col-md-6 col-lg-4">
+
+                        <div class="card h-100 border border-primary rounded-1 bg-transparent text-white">
+
+                            <img
+                                src="photos/Rezfu-one.png"
+                                class="card-img-top img-fluid"
+                                alt="REZFU One">
+
+                            <div class="card-body p-2">
+
+                                <h3>REZFU One</h3>
+
+                                <p class="fs-6">
+                                    The unlimited smartphone experience.
+                                </p>
+
+                                <div class="d-flex justify-content-between align-items-center">
+
+                                    <p class="mb-0">
+                                        $999
+                                    </p>
+
+                                    <button class="btn text-white border rounded-5">
+                                        →
+                                    </button>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- Product 3 -->
+
+                    <div class="col-12 col-md-6 col-lg-4">
+
+                        <div class="card h-100 border border-primary rounded-1 bg-transparent text-white">
+
+                            <img
+                                src="photos/Rezfu-one.png"
+                                class="card-img-top img-fluid"
+                                alt="REZFU One">
+
+                            <div class="card-body p-2">
+
+                                <h3>REZFU One</h3>
+
+                                <p class="fs-6">
+                                    The unlimited smartphone experience.
+                                </p>
+
+                                <div class="d-flex justify-content-between align-items-center">
+
+                                    <p class="mb-0">
+                                        $999
+                                    </p>
+
+                                    <button class="btn text-white border rounded-5">
+                                        →
+                                    </button>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
 
     <!-- Footer -->
 
     <footer>
 
-
     </footer>
 
+
+    <script src="Js/bootstrap.bundle.min.js"></script>
 
 </body>
 
 </html>
+```

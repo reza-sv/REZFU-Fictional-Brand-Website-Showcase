@@ -1,0 +1,119 @@
+:root {
+    --bg: #05080D;
+    --text-primary: #F4F7FB;
+    --text-secondary: #A7B0BF;
+    --accent: #2F8CFF;
+    --accent-light: #5AA7FF;
+    --border: #202A36;
+
+    --font-primary: "Inter", sans-serif;
+    --font-heading: "Space Grotesk", sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--font-primary);
+    background-color: var(--bg);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--font-heading);
+}
+
+
+/* Navbar */
+
+.nav-section {
+    background-color: var(--border);
+}
+
+.nav-link {
+    position: relative;
+    transition: transform 0.25s ease;
+}
+
+.nav-link::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 0;
+    height: 2px;
+    background-color: var(--accent);
+    transition: width 0.25s ease, left 0.25s ease;
+}
+
+.nav-link:hover::after {
+    width: 100%;
+    left: 0;
+}
+
+.nav-link:hover {
+    transform: translateY(-3px);
+}
+
+
+/* Hero */
+
+.hero {
+    position: relative;
+}
+
+.hero-content {
+    position: absolute;
+    top: 55%;
+    left: 8%;
+    transform: translateY(-50%);
+    
+    
+}
+.hero img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.hero-content h1 {
+    font-size: clamp(2rem, 4vw, 4rem);
+}
+
+.hero-description {
+    max-width: 600px;
+    font-size: clamp(0.8rem, 1.2vw, 1.2rem);
+}
+
+.hero-btn {
+    font-size: clamp(0.75rem, 1.2vw, 1rem);
+
+}
+
+
+/* Featured Products */
+
+.featured-products-title {
+    background: linear-gradient(
+        90deg,
+        #0735B3 15%,
+        #FFFFFF 100%
+    );
+
+    background-clip: text;
+    -webkit-background-clip: text;
+
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+}
+
+@media(max-width:576px){
+    .nav-list{
+        font-size: 10px;
+    }
+}
