@@ -22,4 +22,5 @@ This project was created to practice and showcase frontend development skills us
 
 # Preview
 
-Live Demo: Coming soon
+Live Demo: 
+https://reza-sv.github.io/REZFU-Fictional-Brand-Website-Showcase/
