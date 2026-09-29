@@ -112,6 +112,32 @@ h6 {
     -webkit-text-fill-color: transparent;
 }
 
+
+/* footer section */
+
+.footer-img {
+    position: relative;
+}
+
+.footer-content {
+    position: absolute;
+    left: 5%;
+    top: 50%;
+    transform: translateY(-50%);
+    background: linear-gradient(
+        90deg,
+        #3259c5 15%,
+        #FFFFFF 100%
+    );
+
+    background-clip: text;
+    -webkit-background-clip: text;
+
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+}
+
+
 @media(max-width:576px){
     .nav-list{
         font-size: 10px;
