@@ -1,8 +1,25 @@
-# REZFU-Fictional-Brand-Website-Showcase
-A fictional electronics brand website created as a frontend project.
+# REZFU — Fictional Brand Website
 
-#technology 
+A fictional premium electronics brand website created as a frontend showcase project.
 
-1-Html 
-2-Css
-3-Bootstrap-5
+Technologies
+HTML5
+CSS3
+Bootstrap 5
+
+# Features
+
+Responsive design
+Modern dark/futuristic UI
+Responsive navigation
+Product showcase section
+Custom CSS styling
+Mobile-friendly layout
+
+# Project Purpose
+
+This project was created to practice and showcase frontend development skills using HTML, CSS, and Bootstrap 5.
+
+# Preview
+
+Live Demo: Coming soon
